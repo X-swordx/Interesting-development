@@ -1,5 +1,8 @@
 # vue-with-tailwind
-
+目前项目特性：
+1、tailwind
+2、tinyPNG 自动压缩脚手架
+...
 ## Project setup
 ```
 npm install
