@@ -1,7 +1,8 @@
 # vue-with-tailwind
-目前项目特性：
+项目特性：
 1、tailwind
-2、tinyPNG 自动压缩脚手架
+2、tinyPNG 自动压缩图片插件
+3、px 转 viewport 插件
 ...
 ## Project setup
 ```

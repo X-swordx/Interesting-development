@@ -1,26 +1,22 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Vue with tailwind"/>
+    <!-- <HelloWorld msg="Vue with tailwind"/> -->
+    <PxToVw></PxToVw>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import PxToVw from './components/PxToVw.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    PxToVw,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 </style>
