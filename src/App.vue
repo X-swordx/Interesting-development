@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <HelloWorld msg="Vue with tailwind"/> -->
+    <!-- <Tailwind msg="Vue with tailwind"/> -->
     <!-- <PxToVw></PxToVw> -->
     <!-- <LazyLoad></LazyLoad> -->
     <MovieClip
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+// import Tailwind from './components/Tailwind.vue'
 // import PxToVw from './components/PxToVw.vue'
 // import LazyLoad from './components/LazyLoad.vue'
 import MovieClip from './components/MovieClip/MovieClip.vue'
@@ -25,7 +25,7 @@ import MovieClip from './components/MovieClip/MovieClip.vue'
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
+    // Tailwind,
     // PxToVw,
     // LazyLoad,
     MovieClip
