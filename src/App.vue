@@ -3,7 +3,7 @@
     <!-- <Tailwind msg="Vue with tailwind"/> -->
     <!-- <PxToVw></PxToVw> -->
     <!-- <LazyLoad></LazyLoad> -->
-    <MovieClip
+    <!-- <MovieClip
         class="people mx-auto"
         ref="MovieClip"
         :frames="imgArr"
@@ -12,7 +12,8 @@
         :height="344"
         :autoPlay="true"
         :loop="true"
-    />
+    /> -->
+    <quark-button type="primary">Button</quark-button>
   </div>
 </template>
 
@@ -20,7 +21,8 @@
 // import Tailwind from './components/Tailwind.vue'
 // import PxToVw from './components/PxToVw.vue'
 // import LazyLoad from './components/LazyLoad.vue'
-import MovieClip from './components/MovieClip/MovieClip.vue'
+// import MovieClip from './components/MovieClip/MovieClip.vue'
+import "quarkd/lib/button"
 
 export default {
   name: 'App',
@@ -28,7 +30,7 @@ export default {
     // Tailwind,
     // PxToVw,
     // LazyLoad,
-    MovieClip
+    // MovieClip
   },
   data() {
     const imgArr = [];
