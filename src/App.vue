@@ -13,7 +13,8 @@
         :autoPlay="true"
         :loop="true"
     /> -->
-    <quark-button type="primary">Button</quark-button>
+    <!-- <quark-button type="primary">Button</quark-button> -->
+    <Trigger></Trigger>
   </div>
 </template>
 
@@ -22,7 +23,8 @@
 // import PxToVw from './components/PxToVw.vue'
 // import LazyLoad from './components/LazyLoad.vue'
 // import MovieClip from './components/MovieClip/MovieClip.vue'
-import "quarkd/lib/button"
+// import "quarkd/lib/button"
+import Trigger from './components/Trigger.vue'
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     // Tailwind,
     // PxToVw,
     // LazyLoad,
-    // MovieClip
+    // MovieClip,
+    Trigger
   },
   data() {
     const imgArr = [];
