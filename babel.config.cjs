@@ -6,8 +6,8 @@ module.exports = {
     [
       './lib/index.js',
         {
-          catchFn: function() {
-            console.log('catchFn------------->')
+          catchFn: function(e) {
+            console.log('catchFn------------->', e)
           },
           exclude: ['build', 'node_modules'],
           include: []

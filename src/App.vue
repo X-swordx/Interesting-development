@@ -46,14 +46,14 @@ export default {
   },
   methods: {
     // babel会自动将 async 里面的主体包装成 try catch
-    // async fn() {
-    //   await new Promise((resolve, reject) => reject('报错'));
-    //   await new Promise((resolve) => resolve(1));
-    //   console.log('do something...');
-    // }
+    async fn() {
+      await new Promise((resolve, reject) => reject('报错'));
+      await new Promise((resolve) => resolve(1));
+      console.log('do something...');
+    }
   },
   created() {
-    // this.fn()
+    this.fn()
   }
 }
 </script>

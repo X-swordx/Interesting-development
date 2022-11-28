@@ -4,7 +4,7 @@
 2. tinyPNG 自动压缩图片插件
 3. px 转 viewport 插件
 4. 序列帧播放组件
-5. babel-plugin: 自动包装 async 函数为 try-catch
+5. babel-plugin: 自动包装 async 函数为 try-catch(支持自定义传入catchFn)
 6. ![无须编写 JavaScript，建立页面滚动动画](https://github.com/triggerjs/trigger/blob/main/README.zh-Hans.md)
 ...
 ## Project setup
