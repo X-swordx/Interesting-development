@@ -1,5 +1,7 @@
 <template>
-  <div class="test-viewport custom-bg">测试转换</div>
+  <div class="test-viewport custom-bg">
+    测试转换
+  </div>
 </template>
 
 <style scoped>

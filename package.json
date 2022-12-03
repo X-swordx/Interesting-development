@@ -5,8 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "optimizeImages": "tiny"
+    "optimizeImages": "tiny",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",
@@ -20,6 +21,7 @@
     "vue-tailwind": "^2.5.1"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.33.1",
     "@babel/core": "^7.20.2",
     "@babel/eslint-parser": "^7.12.16",
     "@babel/template": "^7.18.10",
@@ -28,25 +30,13 @@
     "@vue/cli-service": "~5.0.0",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "easy-tinypng-cli": "^0.4.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-unicorn": "^45.0.1",
     "eslint-plugin-vue": "^8.0.3",
     "postcss-px-to-viewport": "^1.1.1",
+    "typescript": "^4.9.3",
     "vue-cli-plugin-tailwind": "~3.0.0",
     "vue-lazyload": "^1.3.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
   },
   "browserslist": [
     "> 1%",

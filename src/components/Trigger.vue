@@ -1,34 +1,35 @@
+<script>
+export default {
+  name: 'TriggerComp',
+
+}
+</script>
+
 <template>
   <div
-      class="container"
-      tg-name="size"
-      tg-edge="inset"
-      tg-from="14"
-      tg-to="18"
-      tg-bezier="ease"
-    >
-      <div class="container" tg-name="opacity" tg-from="0" tg-to="1">
-        <div class="sticky">
-          <span
-            class="text" 
-            tg-name="color"
-            tg-from="1"
-            tg-to="10"
-            tg-steps="9"
-            tg-map="1: black; 2: red; 3: orange; 4: yellow; 5: green; 6: cyan; 7: blue; 8: purple; 9,10: grey">
-            Trigger
-          </span>
-        </div>
+    class="container"
+    tg-name="size"
+    tg-edge="inset"
+    tg-from="14"
+    tg-to="18"
+    tg-bezier="ease"
+  >
+    <div class="container" tg-name="opacity" tg-from="0" tg-to="1">
+      <div class="sticky">
+        <span
+          class="text"
+          tg-name="color"
+          tg-from="1"
+          tg-to="10"
+          tg-steps="9"
+          tg-map="1: black; 2: red; 3: orange; 4: yellow; 5: green; 6: cyan; 7: blue; 8: purple; 9,10: grey"
+        >
+          Trigger
+        </span>
       </div>
     </div>
+  </div>
 </template>
-
-<script>
-  export default {
-    name: "TriggerComp"
-    
-  }
-</script>
 
 <style>
   :root {

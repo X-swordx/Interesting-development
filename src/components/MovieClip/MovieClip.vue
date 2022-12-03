@@ -1,9 +1,5 @@
-<template>
-    <canvas ref="cvs" :width="width" :height="height"></canvas>
-</template>
-
 <script>
-import MovieClip from './MovieClip';
+import MovieClip from './MovieClip'
 
 export default {
   name: 'MovieClip',
@@ -36,7 +32,7 @@ export default {
   data() {
     return {
       movieClip: new MovieClip(),
-    };
+    }
   },
   mounted() {
     const {
@@ -47,7 +43,7 @@ export default {
       height,
       autoPlay,
       loop,
-    } = this;
+    } = this
     this.movieClip.init({
       cvs,
       frames,
@@ -57,31 +53,35 @@ export default {
       autoPlay,
       loop,
       onPlay: () => {
-        this.$emit('play', null);
+        this.$emit('play', null)
       },
       onPause: () => {
-        this.$emit('pause', null);
+        this.$emit('pause', null)
       },
       onStart: () => {
-        this.$emit('start', null);
+        this.$emit('start', null)
       },
       onEnd: () => {
-        this.$emit('end', null);
+        this.$emit('end', null)
       },
-    });
+    })
   },
   methods: {
     play() {
-      this.movieClip.play();
+      this.movieClip.play()
     },
 
     pause() {
-      this.movieClip.pause();
+      this.movieClip.pause()
     },
 
     replay() {
-      this.movieClip.replay();
+      this.movieClip.replay()
     },
   },
-};
+}
 </script>
+
+<template>
+  <canvas ref="cvs" :width="width" :height="height" />
+</template>

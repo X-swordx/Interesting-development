@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom': "url('@/assets/bg.png')",
-       }
+        custom: 'url(\'@/assets/bg.png\')',
+      },
     },
   },
   plugins: [
